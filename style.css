@@ -1,0 +1,207 @@
+.jon{
+    position: relative;
+}
+.arow-left{
+    position: absolute;
+    top:144px;
+}
+
+.lo{
+    color: red;
+}
+.text-re{
+    color: red;
+    font-weight: bold;
+}
+
+.hi{
+    width:42%;
+}
+
+.arow-right{
+    position: absolute;
+    top:144px;
+    left:74px;
+}
+
+.carousel{
+    position: relative;
+}
+
+.slider{
+    background-color: black;
+    width:490px;
+    position: absolute;
+    padding:20px 30px;
+    border-radius:10px;
+    bottom:109px;
+    right:30px;
+}
+
+.hero{
+    margin-top:-7px;
+}
+
+.cardi{
+    background-color: white;
+}
+
+
+.card.image-full::before {
+    position: relative;
+    content: "";
+    z-index: 10;
+    border-radius: var(--rounded-box,1rem);
+    --tw-bg-opacity: 1;
+    background-color: var(--fallback-n,oklch(var(--n)/var(--tw-bg-opacity)));
+    opacity: .60;
+  }
+
+
+  
+
+  .card-body :where(p) {
+    flex-grow: 0 !important;
+  }
+
+
+  .btn-rad{
+    background-color:rgb(247, 52, 52);
+    color:white;
+    border:none;
+    padding:4px 23px;
+  }
+
+.mini-width{
+    /* width:1140px; */
+    height:350px;
+}
+
+
+.mini-width img{
+    width:100%;
+    height:100%;
+}
+
+.conti{
+    background-color:red;
+}
+
+.con{
+    background-image:url('./img/4.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    padding:180px 10px;
+    border-radius:10px;
+    position: relative;
+    z-index:6;
+    
+}
+
+.con::before{
+    position: absolute;
+    content: "";
+    z-index: -1;
+    border-radius: var(--rounded-box,1rem);
+    --tw-bg-opacity: 1;
+    background-color: var(--fallback-n,oklch(var(--n)/var(--tw-bg-opacity)));
+    opacity: .60;
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
+}
+
+.contain{
+    width:84%;
+    margin:0px auto;
+}
+
+.niti{
+    position:absolute;
+    margin-top:6px;
+    margin-left:19px;
+}
+
+
+.star{
+    color: rgb(238, 93, 9);
+}
+
+.midel-img{
+    width:90%;
+    height:100%;
+}
+
+
+.midel-img img{
+    width:100%;
+    height:300px;
+   
+}
+
+
+.form-img img{
+    width:30px;
+}
+
+.hili{
+    padding:0px !important;
+}
+
+
+.btn-ra{
+    background-color:rgb(247, 52, 52) !important;
+    color:white;
+    border:none !important;
+    border-radius:5px;
+}
+
+.foote{
+    font-size:20px;
+}
+
+
+.footer-title h1{
+    font-size:19px;
+}
+
+.ki{
+    color: red;
+}
+
+.kili{
+    width:100%;
+}
+
+
+
+@media screen and (min-width: 400px) and (max-width: 800px) {
+    .slider{
+        background-color: black;
+        width:300px;
+        position: relative;
+        padding:20px 30px;
+        border-radius:10px;
+        top:40px;
+        
+    }
+    .arow-left{
+        position: absolute;
+        top:130px;
+        
+    }
+    
+    .arow-right{
+        position: absolute;
+        top:130px;
+        left:74px;
+    }
+
+    .di{
+        width:100%;
+        display: flex;
+        justify-content: center;
+       }
+    
+}
